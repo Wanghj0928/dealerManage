@@ -1,0 +1,18 @@
+{
+  "name": "dealerManage",
+  "app_id": "",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ],
+   "proxies": [
+      {
+        "path": "/api",
+        "proxyUrl": "http://192.168.1.105:8080/MVNFHM"
+      }
+    ]
+}
